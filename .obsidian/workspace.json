@@ -1,0 +1,269 @@
+{
+  "main": {
+    "id": "f41bfe18d4c57a39",
+    "type": "split",
+    "children": [
+      {
+        "id": "886b341c62ae2955",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c256e5285b25cd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Notion/빠른메모.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "빠른메모"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "24fd71451b4e4252",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6515483c26ed3a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff3fee1e7a55991b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "3f56fef6d0e75629",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "765ce474180b98f8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "b4f9049fb2762efc",
+    "type": "split",
+    "children": [
+      {
+        "id": "146e483a03f42be1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0dd032e7e10fdd7",
+            "type": "leaf",
+            "state": {
+              "type": "vault-terminal",
+              "state": {},
+              "icon": "bot",
+              "title": "Claude"
+            }
+          },
+          {
+            "id": "99a40766c7d7f7b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04. Notion/빠른메모.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "빠른메모 의 백링크"
+            }
+          },
+          {
+            "id": "78d294cffc5f7def",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04. Notion/빠른메모.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "빠른메모 의 나가는 링크"
+            }
+          },
+          {
+            "id": "49453c4c1b130cbf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "805afad4f36c0375",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "b0066541064f2da5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04. Notion/빠른메모.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "빠른메모 의 개요"
+            }
+          },
+          {
+            "id": "e8ae25e6c78e14dc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 698.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "obsidian-importer:Open Importer": false,
+      "claude-sidebar:New Claude Tab": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "1c256e5285b25cd2",
+  "lastOpenFiles": [
+    "04. Notion/스프링 시큐리티 + JWT/스프링 시큐리티 OAuth2.0(구글, 페이스북, 네이버).md",
+    "NOTE.md",
+    "무제.md",
+    "새 텍스트 문서.txt",
+    "2026-07-09.md",
+    "03. 외교부 프로젝트 관련/STT학습서버_DB정보.md",
+    "03. 외교부 프로젝트 관련/IDC_서버_정보.md",
+    "03. 외교부 프로젝트 관련/셀바스_외교부.md",
+    "01. 연구소회의/회의정리_260511_1613.md",
+    "01. 연구소회의/회의정리_260708_1517.md",
+    "01. 연구소회의/회의정리_260630_1603.md",
+    "01. 연구소회의/회의정리_260703_1730.md",
+    "01. 연구소회의/회의정리_260706_1625.md",
+    "01. 연구소회의/회의정리_260512_1646.md",
+    "02. 관광공사 프로젝트 관련/관광공사_서버_DB_정보.md",
+    "02. 관광공사 프로젝트 관련/협력업체_솔루션_정보.md",
+    "02. 관광공사 프로젝트 관련/DB_용량_커넥션_모니터링.md",
+    "02. 관광공사 프로젝트 관련/KOTIS AP.md",
+    "02. 관광공사 프로젝트 관련/TA 정보.md",
+    "02. 관광공사 프로젝트 관련/1330 관광통역콜센터 개선사업 RFP.md",
+    "02. 관광공사 프로젝트 관련/TA 정보.md.tmp.6952.d7921f1a63ae",
+    "02. 관광공사 프로젝트 관련/수집분배서버_패킷캡쳐.md",
+    "NOTE.md.tmp.6952.d385677793d3",
+    "02. 관광공사 프로젝트 관련/협력업체_솔루션_정보.md.tmp.6952.84cc3fcd2dac",
+    "02. 관광공사 프로젝트 관련/KOTIS_DB계정.md",
+    "02. 관광공사 프로젝트 관련/관광공사_서버_DB_정보.md.tmp.6952.7d0ed3c121cf",
+    "02. 관광공사 프로젝트 관련/STT관리서버_DB정보.md",
+    "02. 관광공사 프로젝트 관련/KMS서버_DB정보.md",
+    "02. 관광공사 프로젝트 관련/IDC_서버_정보.md",
+    "02. 관광공사 프로젝트 관련/관련_웹_계정정보.md",
+    "02. 관광공사 프로젝트 관련/셀바스_관광공사.md",
+    "NOTE.md.tmp.6952.720604dc5a0e",
+    "02. 관광공사 프로젝트 관련/셀바스_관광공사.md.tmp.6952.0d872c4f1359",
+    "NOTE.md.tmp.6952.4acbcd59fbc0",
+    "04. Notion/스프링 MVC 1편/서블릿/HTTP 요청 데이터 - 개요",
+    "04. Notion/자격증 공부/리눅스마스터 정리",
+    "04. Notion/Images/Untitled.png",
+    "04. Notion/Images/더이상_불안해_할_시간도_없다!.jpg",
+    "04. Notion/Images/Visual_Studio_Code_(VS_Code).png",
+    "04. Notion/Images/Untitled 9.png",
+    "04. Notion/Images/Untitled 9 5.png",
+    "04. Notion/Images/Untitled 9 4.png",
+    "04. Notion/Images/Untitled 89.png",
+    "04. Notion/Images/Untitled 9 3.png",
+    "04. Notion/Images/Untitled 9 2.png",
+    "04. Notion/Images/Untitled 87.png",
+    "캔버스 테스트.canvas"
+  ]
+}
