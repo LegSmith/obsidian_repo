@@ -1,8 +1,4 @@
-  
-
-  
-
-## 1. @RequestParam(”key”)
+## 1. @RequestParam("key")
 
 - 쿼리스트링에 있는 파라미터명을 key로 받아서 저장
 
@@ -32,9 +28,6 @@
     }
 ```
 
-  
-
-  
 
 ## 2. @RequestParam - required , defalutValue 속성
 
@@ -65,7 +58,6 @@
     }
 ```
 
-  
 
 ## 3. Map 을 이용하여 하나로 통일
 
@@ -81,3 +73,9 @@
         return "ok";
     }
 ```
+
+## 관련 문서
+
+- 상위 목차: [[SpringMVC - 기본]]
+- 이전 문서: [[HTTP 요청 - 헤더정보(블로깅안해도됨)]]
+- 다음 문서: [[HTTP 요청메시지 - JSON(블로깅완료)]]

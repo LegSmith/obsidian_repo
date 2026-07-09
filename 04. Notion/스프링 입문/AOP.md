@@ -1,12 +1,9 @@
-  
-
 # AOP 적용
 
-==_**AOP : Aspect Oriented Programming**_==
+**==AOP : Aspect Oriented Programming==**
 
 > 공통 관심 사항(cross-cutting concern) vs 핵심 관심 사항(core concern) 분리
 
-  
 
 ```java
 package hello.hellospring.aop;
@@ -37,3 +34,8 @@ public class TimeTraceAop {
 ```
 
 ![[Untitled 42.png|Untitled 42.png]]
+
+## 관련 문서
+
+- 상위 목차: [[스프링 입문]]
+- 다음 문서: [[Section 3]]

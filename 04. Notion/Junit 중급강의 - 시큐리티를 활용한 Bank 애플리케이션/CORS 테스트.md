@@ -1,19 +1,16 @@
-  
+**==JavaScript 로 프론트에서 JWT 토큰을 다룰수 있게 CORS 설정을 하여 테스트를 해보자.==**
 
-==_**JavaScript 로 프론트에서 JWT 토큰을 다룰수 있게 CORS 설정을 하여 테스트를 해보자.**_==
-
-  
 
 - SecurityConfig 에서 수정이 필요하다.
 - 예전 CORS 정책에서는 `addExposeHeader` 가 디폴트였는데 이제는 따로 설정을 해줘야 한다.
-    
+
     ```java
     @Slf4j
     @Configuration
     public class SecurityConfig {
-    
+
         // 생략 ..
-    
+
         public CorsConfigurationSource configurationSource() {
             CorsConfiguration configuration = new CorsConfiguration();
             configuration.addAllowedHeader("*"); // 모든 헤더허용
@@ -23,14 +20,14 @@
             configuration.addExposedHeader("Authorization"); // 추가 !!!
             UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
             source.registerCorsConfiguration("/**", configuration); // 어떤 주소가 요청이 와도 위에 설정들을 다 셋팅한다.
-    
+
             return source;
         }
     }
     ```
-    
+
 - 그리고 간단한 LoginForm 을 만들어서 테스트 해보면 된다.
-    
+
     ```html
     <!doctype html>
     <html lang="en">
@@ -48,7 +45,7 @@
             <input type="password" id="password"><br/>
             <button type="button" onclick="login()">로그인</button>
         </form>
-    
+
         <script>
             // async : await 지점을 기억한 채로 login() 함수의 스택을 빠져나온다.
             async function login() {
@@ -58,10 +55,10 @@
                 }
                 console.log(userDto);
                 // 통신(시간이 걸린다)
-                
+
                 let userJson = JSON.stringify(userDto);
                 console.log(userJson);
-    
+
                 let r1 = await fetch("http://localhost:8081/api/login", {
                     method: "post",
                     body: userJson,
@@ -69,7 +66,7 @@
                         "Content-Type": "application/json; charset=utf-8"
                     }
                 });
-    
+
                 console.log("Authorization", r1.headers.get("Authorization"));
                 let r2 = await r1.json();
                 console.log(r2);
@@ -78,3 +75,9 @@
     </body>
     </html>
     ```
+
+## 관련 문서
+
+- 상위 목차: [[Junit 중급강의 - 시큐리티를 활용한 Bank 애플리케이션]]
+- 이전 문서: [[AOP - 관점 지향 프로그래밍]]
+- 다음 문서: [[JWT 테스트]]

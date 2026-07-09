@@ -1,5 +1,3 @@
-  
-
 ```java
 @AutoConfigureMockMvc
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
@@ -70,3 +68,9 @@ public class UserControllerTest extends DummyObject {
     }
 }
 ```
+
+## 관련 문서
+
+- 상위 목차: [[Junit 중급강의 - 시큐리티를 활용한 Bank 애플리케이션]]
+- 이전 문서: [[Long 타입 테스트]]
+- 다음 문서: [[동적쿼리 레파지토리 테스트]]

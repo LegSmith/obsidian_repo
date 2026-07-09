@@ -2,7 +2,6 @@
 
 ![[Untitled 51.png|Untitled 51.png]]
 
-  
 
 ## 2. 프로젝트 워크스페이스 설정하기
 
@@ -12,13 +11,11 @@ c:\code_lab\flutter
 c:\code_lab\react
 ```
 
-  
 
 ## 3. 워크스페이스 폴더 열기
 
 ![[Untitled 1 37.png|Untitled 1 37.png]]
 
-  
 
 ## 4. 스프링부트 프로젝트 생성하기
 
@@ -39,7 +36,6 @@ Srping Boot DevTools, Spring Web, Lombok
 c:\code_lab\spring 해당 경로에 프로젝트 만들기
 ```
 
-  
 
 ## 5. debug console 세팅
 
@@ -62,7 +58,6 @@ logging:
     '[shop.mtcoding.demo]': DEBUG
 ```
 
-  
 
 ## 7. [IndexController.java](http://IndexController.java) 생성 및 실행
 
@@ -92,3 +87,8 @@ public class IndexController {
 ![[Untitled 5 13.png|Untitled 5 13.png]]
 
 ![[Untitled 6 11.png|Untitled 6 11.png]]
+
+## 관련 문서
+
+- 상위 목차: [[Vscode 스프링 환경 세팅]]
+- 다음 문서: [[3강 VsCode gradle 세팅]]

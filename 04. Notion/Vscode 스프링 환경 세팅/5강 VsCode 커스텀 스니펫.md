@@ -1,10 +1,8 @@
 [![](https://blogfiles.pstatic.net/MjAyMjEwMjlfNDAg/MDAxNjY3MDM2NjA2MzA5.KX5DyUQKHdtjPMp-sHIy5kTFiQ7-FD8kB8wiSd-ilSog.SMjkD-SMR0Jre7nHZ1UuR8Ddr37nHZVBxBlksdP8Yccg.PNG.getinthere/image.png)](https://blogfiles.pstatic.net/MjAyMjEwMjlfNDAg/MDAxNjY3MDM2NjA2MzA5.KX5DyUQKHdtjPMp-sHIy5kTFiQ7-FD8kB8wiSd-ilSog.SMjkD-SMR0Jre7nHZ1UuR8Ddr37nHZVBxBlksdP8Yccg.PNG.getinthere/image.png)
 
-  
 
 ## 1. Java 언어선택
 
-  
 
 ## 2. 세팅하기
 
@@ -133,3 +131,8 @@
 [![](https://blogfiles.pstatic.net/MjAyMjEwMjlfMjg5/MDAxNjY3MDM2NTM3NjQ5.AJXbguMCS_fTZgoz5l0y_C9Nff9X7BaO-1HKzJlbXKIg.qpjVberxE37y_WQERPApYOVNHSO-rbDP-7Vru5Y3Ckog.PNG.getinthere/image.png)](https://blogfiles.pstatic.net/MjAyMjEwMjlfMjg5/MDAxNjY3MDM2NTM3NjQ5.AJXbguMCS_fTZgoz5l0y_C9Nff9X7BaO-1HKzJlbXKIg.qpjVberxE37y_WQERPApYOVNHSO-rbDP-7Vru5Y3Ckog.PNG.getinthere/image.png)
 
 [![](https://blogfiles.pstatic.net/MjAyMjEwMjlfMTUz/MDAxNjY3MDM2NTQ3MDk1.xtl6TT75qb81VmtwPLHDRzA2283-G1Yc5z5SHwPQjckg.FI2fbrBHt_auReOsUSsO87E_f5WEYkhfBcqkwxpB2Ywg.PNG.getinthere/image.png)](https://blogfiles.pstatic.net/MjAyMjEwMjlfMTUz/MDAxNjY3MDM2NTQ3MDk1.xtl6TT75qb81VmtwPLHDRzA2283-G1Yc5z5SHwPQjckg.FI2fbrBHt_auReOsUSsO87E_f5WEYkhfBcqkwxpB2Ywg.PNG.getinthere/image.png)
+
+## 관련 문서
+
+- 상위 목차: [[Vscode 스프링 환경 세팅]]
+- 이전 문서: [[4강 VsCode Junit 세팅]]

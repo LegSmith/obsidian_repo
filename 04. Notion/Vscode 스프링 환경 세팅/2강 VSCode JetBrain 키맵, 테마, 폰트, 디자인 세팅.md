@@ -1,5 +1,3 @@
-  
-
 ## 1. 자동 정렬 세팅
 
 ![[Untitled 52.png|Untitled 52.png]]
@@ -18,7 +16,6 @@
 
 ![[Untitled 3 17.png|Untitled 3 17.png]]
 
-  
 
 ## 4. JetBrains Mono 폰트 적용
 
@@ -33,3 +30,11 @@
 ![[/JetBrainsMono-2.242.zip|JetBrainsMono-2.242.zip]]
 
 ![[Untitled 4 15.png|Untitled 4 15.png]]
+
+## 관련 문서
+
+- 상위 목차: [[Vscode 스프링 환경 세팅]]
+
+## 하위 문서
+
+- [[Material icon theme 적용해서 이쁘게 만들기]]

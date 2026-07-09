@@ -1,10 +1,8 @@
-  
-
 HTTP message body에 데이터를 직접 담아서 요청
 
 ## 단순 텍스트
 
-- _==**content-type : text/plain**==_
+- **==content-type : text/plain==**
 - getInputStream() 메서드로 가져온다. 스트림 타입이기 때문에 String으로 변환해야 한다.
 
 ```java
@@ -22,14 +20,12 @@ public class RequestBodyStringServlet extends HttpServlet {
 }
 ```
 
-  
 
 ## JSON
 
-- ==_**content-type : application/json**_==
-- message body : ==_**{”username” : “hello”, “age”: 20}**_== //key:value 형식이다
+- **==content-type : application/json==**
+- message body : **=={"username" : "hello", "age": 20}==** //key:value 형식이다
 
-  
 
 - JSON은 자바 객체로 바꿔서 사용하기 때문에 파싱할 수 있게 객체를 하나 생성한다.
 
@@ -46,7 +42,6 @@ public class RequestBodyJsonServlet extends HttpServlet {
 }
 ```
 
-  
 
 ## JSON → 객체
 
@@ -69,3 +64,8 @@ public class RequestBodyJsonServlet extends HttpServlet {
     }
 }
 ```
+
+## 관련 문서
+
+- 상위 목차: [[HTTP 요청 데이터 - 개요]]
+- 다음 문서: [[HTTP 요청 데이터 - GET 쿼리 파라미터]]

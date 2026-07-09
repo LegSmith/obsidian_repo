@@ -9,9 +9,12 @@
 3. ==**공통 처리 가능**==
 4. 프론트 컨트롤러를 제외한 나머지 컨트롤러는 서블릿을 사용하지 않아도
 
-  
 
 ## 스프링 웹 MVC와 프론트 컨트롤러
 
 - 스프링 웹 MVC의 핵심이 바로 FrontController
 - 스프링 웹 MVC의 DispatcherServlet이 FrontController 패턴으로 구현되어 있다.
+
+## 관련 문서
+
+- 상위 목차: [[MVC 프레임워크]]

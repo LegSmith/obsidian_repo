@@ -1,14 +1,7 @@
-  
-
-  
-
-  
-
 ## 형식
 
 - 쿼리 파라미터는 URL다음에 ? 를 시작으로 보낼 수 있다. 추가 파라미터는 & 로 연결한다.
 
-  
 
 ```java
 /**
@@ -50,3 +43,9 @@ public class RequestParamServlet extends HttpServlet {
 
 - request.getParmeter() 는 하나의 파라미터 이름에 대해서 단 하나의 값만 있을 때 사용,
 - 하나의 파라미터 이름의 여러 값이 있을때는 request.getParmeterValues()를 이용해 배열에 저장하여 데이터 사용.
+
+## 관련 문서
+
+- 상위 목차: [[HTTP 요청 데이터 - 개요]]
+- 이전 문서: [[HTTP 요청 데이터 - API 메시지 바디]]
+- 다음 문서: [[HTTP 요청 데이터 - POST HTML Form]]

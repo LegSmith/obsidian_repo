@@ -19,7 +19,6 @@ AOP(Aspect Orientied 의 핵심은 **`관심사 분리`** 이다 !!
 - 우선 회원가입 시 매번 유효성검사를 하고 유효성 검사실패시 예외처리로직을 모든 메서드에 적어줄 순 없다 !
 - Advice 에 유효성검사실패시 예외처리 로직을 넣고 JoinPoint 는 `@GetMapping` , `@PostMapping` 이 붙은 메서드로 한다.
 
-  
 
 - `@Around()` 어노테이션에 위에서 @Pointcut 으로 지정한 메서드를 담아주면 전/후 제어가 된다.
 - `@Around` 가 붙은 메서드는 ==**ProceedingJoinPoint 타입의 파라미터를 받는데 이 파라미터는 JoinPoint 로 지정된 메서드에 모든 정보**==를 갖고 있다.
@@ -60,3 +59,8 @@ public class CustomValidationAdvice {
     }
 }
 ```
+
+## 관련 문서
+
+- 상위 목차: [[Junit 중급강의 - 시큐리티를 활용한 Bank 애플리케이션]]
+- 다음 문서: [[CORS 테스트]]

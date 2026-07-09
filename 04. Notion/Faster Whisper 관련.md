@@ -29,8 +29,8 @@
 |`without_timestamps`|`bool`|`False`|`True`, `False`|텍스트만 출력 (타임스탬프 없음)|
 |`max_initial_timestamp`|`float`|`1.0`|≥0|첫 segment의 최대 시작시간 제한|
 |`word_timestamps`|`bool`|`False`|`True`, `False`|단어별 타임스탬프 출력 여부|
-|`prepend_punctuations`|`str`|`"'“¿([{-`|-|다음 단어에 붙일 구두점|
-|`append_punctuations`|`str`|`"'.。,，!！?？:：”)]}、`|-|앞 단어에 붙일 구두점|
+|`prepend_punctuations`|`str`|`"'"¿([{-`|-|다음 단어에 붙일 구두점|
+|`append_punctuations`|`str`|`"'.。,，!！?？:：")]}、`|-|앞 단어에 붙일 구두점|
 |`multilingual`|`bool`|`False`|`True`, `False`|segment별 언어 감지 여부|
 |`vad_filter`|`bool`|`False`|`True`, `False`|Silero VAD로 무음 제거 여부|
 |`vad_parameters`|`dict` or `VadOptions`|`None`|-|VAD 세부 파라미터 설정|
@@ -49,3 +49,9 @@
 ### Faster Whisper - initial prompt 길이
 
 ![[image 2 3.png|image 2 3.png]]
+
+## 관련 문서
+
+- 상위 목차: [[04. Notion]]
+- 관련: [[빠른메모]] (ASR/RNN-T/Whisper 용어 정리)
+- 관련: [[LLM+Python]]

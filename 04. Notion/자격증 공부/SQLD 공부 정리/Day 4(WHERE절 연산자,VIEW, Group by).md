@@ -26,14 +26,14 @@
 1. 서브쿼리를 사용해서 ==**임시테이블이나 뷰처럼 사용 가능함**==
 2. **별칭 지정 가능함**
 3. **인라인뷰**나 **임시테이블**로 판단한다.
-    
+
     ```sql
     WITH table__name AS(
     	SELECT *
     	FROM C_INFO
     	WHERE NAME LIKE '%a%'
     );
-    
+
     INSERT INTO SQLD_34_23 VALUES (1, 'A' );
     INSERT INTO SQLD_34_23 VALUES (2, 'A' );
     INSERT INTO SQLD_34_23 VALUES (1, 'C' );
@@ -41,15 +41,15 @@
     INSERT INTO SQLD_34_23 VALUES (2, 'D' );
     COMMIT;
     ```
-    
+
 
 ### 서브쿼리와 인라인뷰
 
 - **서브쿼리** : ==**SELECT 문 내에 SELEC문**==이 또 쓰여있는 쿼리
 - **인라인뷰** : ==**서브쿼리가 FROM 절 내**==에 쓰여진 것.
-    
-    `SELECT * FROM (SELECT * FROM C_INFO WHERE name LIKE ‘%a%’);`
-    
+
+    `SELECT * FROM (SELECT * FROM C_INFO WHERE name LIKE '%a%');`
+
 
 ### VIEW 테이블
 
@@ -64,7 +64,7 @@
 |   |   |
 |---|---|
 |`NVL(col1, 대체값)`|NULL이면 다른 값으로 바꿔주는 함수  <br>`NVL(col1, 100)` → col1 이 NULL 이면, 100으로 바꿔줌|
-|`NVL2(col1, 결과1, 결과2)`|col1 이 NULL일 때,  <br>`NVL(col1, ‘F’, ‘T’)` → ‘T’ 출력  <br>col1 이 NOT NULL 일때 ‘F’출력  <br>즉, ==**col1이 NULL 이면 결과2, NOT NULL 이면 결과 1 출력**==|
+|`NVL2(col1, 결과1, 결과2)`|col1 이 NULL일 때,  <br>`NVL(col1, 'F', 'T')` → 'T' 출력  <br>col1 이 NOT NULL 일때 'F'출력  <br>즉, ==**col1이 NULL 이면 결과2, NOT NULL 이면 결과 1 출력**==|
 |`NULLIF(v1, v2)`|v1 == v2 이면 NULL==**v1 ! = v2 이면 v1 출력**==|
 |`COALESCE(v1, v2, v3, …vn)`|==**NULL이 아닌 최초의 값을 반환**==|
 
@@ -106,9 +106,15 @@ WHERE ROWNUM = 1;
 
 - `ROWNUM` : 오라클에서 ==**조회된 행이 몇번째 행인지 부여해주는 것**==
 - **SQL Server**
-    
+
     `SELECT TOP(1) FROM C_INFO;`
-    
+
 - **MySQL**
-    
+
     `SELECT * FROM C_INFO LIMIT 1;`
+
+## 관련 문서
+
+- 상위 목차: [[SQLD 공부 정리]]
+- 이전 문서: [[Day 3(SELECT , 함수)]]
+- 다음 문서: [[Day 9(1과목 - 데이터모델링)]]
