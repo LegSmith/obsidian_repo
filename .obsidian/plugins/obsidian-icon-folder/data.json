@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "👀",
       "💩",
       "📔",
       "🏫",
-      "😄",
-      "LiArrowRightToLine"
+      "😄"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,5 +38,6 @@
   "02. 관광공사 프로젝트 관련": "🛩",
   "03. 외교부 프로젝트 관련": "💩",
   "04. Notion": "🏫",
-  "NOTE.md": "😄"
+  "NOTE.md": "😄",
+  "눈팅": "👀"
 }

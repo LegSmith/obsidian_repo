@@ -2,5 +2,7 @@
   "obsidian-importer",
   "obsidian-icon-folder",
   "claude-sidebar",
-  "obsidian-git"
+  "obsidian-git",
+  "dataview",
+  "templater-obsidian"
 ]
