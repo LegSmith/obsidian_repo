@@ -4,5 +4,6 @@
   "claude-sidebar",
   "obsidian-git",
   "dataview",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-discordrpc"
 ]
