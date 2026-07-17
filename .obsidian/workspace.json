@@ -4,22 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "473dce2d915312df",
+        "id": "58f2a996a4e8f7b7",
         "type": "tabs",
         "children": [
           {
-            "id": "b305d17c41b4d3e5",
+            "id": "b53b40364341753a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTE.md",
-                "mode": "preview",
+                "file": "04. Notion/LLM 공부/01. LLM 기본개념.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "NOTE"
+              "title": "01. LLM 기본개념"
+            }
+          },
+          {
+            "id": "978f4704c04b8bdc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ]
@@ -183,13 +193,23 @@
               "icon": "bot",
               "title": "Claude"
             }
+          },
+          {
+            "id": "d703db243ff78489",
+            "type": "leaf",
+            "state": {
+              "type": "vault-terminal",
+              "state": {},
+              "icon": "bot",
+              "title": "Claude"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 699.5
+    "width": 541.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,8 +226,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e8ae25e6c78e14dc",
+  "active": "d703db243ff78489",
   "lastOpenFiles": [
+    "04. Notion/Images/Pasted image 20260717132138.png",
+    "04. Notion/Images/Pasted image 20260717123934.png",
+    "04. Notion/Images/Pasted image 20260717123720.png",
+    "04. Notion/Images/Pasted image 20260717123631.png",
+    "Pasted image 20260717132138.png",
+    "Pasted image 20260717123934.png",
+    "Pasted image 20260717123720.png",
+    "Pasted image 20260717123631.png",
+    "04. Notion/LLM 공부/01. LLM 기본개념.md",
+    "04. Notion/LLM 공부.md",
+    "04. Notion.md",
+    "_templates/index-hub-link.md",
+    "_templates/04-hub-link.md",
+    "_templates",
+    "04. Notion/People/최재영.md",
+    "04. Notion/LLM 공부",
     "눈팅/architecture(누적LID).md",
     "눈팅/architecture(LID학습).md",
     "눈팅/spec(누적LID).md",
@@ -218,7 +254,6 @@
     "05. 관광공사 개선사업/마크다운/requirements(누적LID).md",
     "05. 관광공사 개선사업/마크다운/architecture(LID학습).md",
     "05. 관광공사 개선사업/마크다운/architecture(누적LID).md",
-    "04. Notion.md",
     "05. 관광공사 개선사업/마크다운/requirements(LID학습).md",
     "05. 관광공사 개선사업/마크다운/spec(누적LID).md",
     "05. 관광공사 개선사업/마크다운/spec(LID학습).md",
@@ -231,29 +266,14 @@
     "NOTE.md",
     "spec(LID학습).md",
     "spec(누적LID).md",
-    "requirements(LID학습).md",
-    "requirements(누적LID).md",
-    "01. 연구소회의/회의정리_260708_1517.md",
-    "01. 연구소회의/00. 회의록 목차.md",
-    "04. Notion/Junit 중급강의 - 시큐리티를 활용한 Bank 애플리케이션.md",
-    "01. 연구소회의/회의정리_260630_1603.md",
     "04. Notion/스프링데이터 JPA/섹션 4 - 쿼리 메소드 기능.md.tmp.32552.34ad5fc48bb4",
     "04. Notion/스프링데이터 JPA/섹션 4 - 쿼리 메소드 기능.md.tmp.32552.0c10d25a71dd",
     "04. Notion/스프링 핵심원리 강의/섹션 1 - 객체 지향 설계와 스프링(블로깅완료).md.tmp.32552.68716ade5a02",
     "04. Notion/Junit_초급강의/스프링 DB 1편/섹션 5 - 자바 예외 이해.md.tmp.32552.4614f5923c66",
     "04. Notion/Junit_초급강의/서비스 레이어 테스트.md.tmp.32552.594f14d304a7",
-    "새 텍스트 문서.txt",
-    "02. 관광공사 프로젝트 관련/TA 정보.md.tmp.6952.d7921f1a63ae",
     "04. Notion/Images/Untitled.png",
     "04. Notion/Images/더이상_불안해_할_시간도_없다!.jpg",
     "04. Notion/Images/Visual_Studio_Code_(VS_Code).png",
-    "04. Notion/Images/Untitled 9.png",
-    "04. Notion/Images/Untitled 9 5.png",
-    "04. Notion/Images/Untitled 9 4.png",
-    "04. Notion/Images/Untitled 89.png",
-    "04. Notion/Images/Untitled 9 3.png",
-    "04. Notion/Images/Untitled 9 2.png",
-    "04. Notion/Images/Untitled 87.png",
     "캔버스 테스트.canvas"
   ]
 }
