@@ -10,6 +10,8 @@ if (folder) {
   );
 
   if (hub) {
+    tR += `## 관련 문서\n\n- 상위 목차: [[${hub.basename}]]\n`;
+
     let hubContent = await app.vault.read(hub);
     const linkLine = `- [[${target.basename}]]`;
 

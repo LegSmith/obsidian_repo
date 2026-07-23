@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "978f4704c04b8bdc",
+            "id": "3d81fe110b9f0f0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTE.md",
+                "file": "01. 연구소회의/회의정리_260722_1514.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "NOTE"
+              "title": "회의정리_260722_1514"
             }
           }
         ]
@@ -183,23 +183,13 @@
               "icon": "bot",
               "title": "Claude"
             }
-          },
-          {
-            "id": "d703db243ff78489",
-            "type": "leaf",
-            "state": {
-              "type": "vault-terminal",
-              "state": {},
-              "icon": "bot",
-              "title": "Claude"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 686.5
+    "width": 659.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,12 +206,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "978f4704c04b8bdc",
+  "active": "7e9a8997b692467f",
   "lastOpenFiles": [
-    "04. Notion.md",
     "NOTE.md",
+    "01. 연구소회의/회의정리_260722_1514.md",
+    "01. 연구소회의/00. 회의록 목차.md",
+    "01. 연구소회의/회의정리_260713_1642.md",
+    "01. 연구소회의/회의정리_260722_1540.md",
+    "01. 연구소회의/회의정리_260710_1632.md",
+    "01. 연구소회의/회의정리_260708_1517.md",
+    "01. 연구소회의/회의정리_260722_1514.md.tmp.4660.3487191a8dc1",
+    "01. 연구소회의/회의정리_260710_1632.md.tmp.4660.38d4b8976b02",
+    "01. 연구소회의/회의정리_260708_1517.md.tmp.4660.440e20b16c57",
+    "01. 연구소회의/회의정리_260706_1625.md.tmp.4660.6005facdb2cc",
+    "01. 연구소회의/회의정리_260703_1730.md.tmp.4660.a46bbebaadd7",
+    "01. 연구소회의/회의정리_260630_1603.md.tmp.4660.6329639e7f74",
+    "01. 연구소회의/회의정리_260618_2019.md.tmp.4660.af0a106548f6",
+    "01. 연구소회의/회의정리_260520_1725.md.tmp.4660.7ba63a7d9419",
+    "01. 연구소회의/회의정리_260518_1640.md.tmp.4660.c594b9cf7f56",
+    "01. 연구소회의/회의정리_260514_1655.md.tmp.4660.b4bc1590fa86",
+    "01. 연구소회의/회의정리_260514_1655.md",
+    "01. 연구소회의/회의정리_260630_1603.md",
+    "_templates/01-meeting-note.md",
+    "01. 연구소회의/회의정리_260706_1625.md",
+    "01. 연구소회의/회의정리_260512_1646.md",
+    "02. 관광공사 프로젝트 관련/00. 관광공사 프로젝트 목차.md",
+    "_templates/04-hub-link.md",
+    "_templates/index-hub-link.md",
+    "01. 연구소회의/회의정리_260721_1626.md",
+    "눈팅/program_list(누적LID) 1.md",
+    "눈팅/program_list(누적LID).md",
+    "04. Notion/스프링 시큐리티 + JWT/로그인 동작 원리와 구현.md",
+    "01. 연구소회의/ㅇㄹㅇ.md",
+    "01. 연구소회의/회의정리_260511_1613.md",
+    "눈팅/architecture(LID학습).md",
+    "눈팅/architecture(누적LID).md",
+    "눈팅/spec(누적LID).md",
+    "04. Notion.md",
     "04. Notion/JAVA.md",
-    "04. Notion/LLM 공부/01. LLM 기본개념.md",
     "04. Notion/Images/Pasted image 20260717132138.png",
     "04. Notion/Images/Pasted image 20260717123934.png",
     "04. Notion/Images/Pasted image 20260717123720.png",
@@ -230,38 +252,6 @@
     "Pasted image 20260717123934.png",
     "Pasted image 20260717123720.png",
     "Pasted image 20260717123631.png",
-    "04. Notion/LLM 공부.md",
-    "_templates/index-hub-link.md",
-    "_templates/04-hub-link.md",
-    "_templates",
-    "04. Notion/People/최재영.md",
-    "04. Notion/LLM 공부",
-    "눈팅/architecture(누적LID).md",
-    "눈팅/architecture(LID학습).md",
-    "눈팅/spec(누적LID).md",
-    "눈팅/spec(LID학습).md",
-    "눈팅/requirements(누적LID).md",
-    "눈팅/requirements(LID학습).md",
-    "눈팅",
-    "05. 관광공사 개선사업/마크다운/requirements(누적LID).md",
-    "05. 관광공사 개선사업/마크다운/architecture(LID학습).md",
-    "05. 관광공사 개선사업/마크다운/architecture(누적LID).md",
-    "05. 관광공사 개선사업/마크다운/requirements(LID학습).md",
-    "05. 관광공사 개선사업/마크다운/spec(누적LID).md",
-    "05. 관광공사 개선사업/마크다운/spec(LID학습).md",
-    "05. 관광공사 개선사업/마크다운",
-    "05. 관광공사 개선사업",
-    "spec_LID학습.md",
-    "spec_누적LID.md",
-    "architecture_LID학습.md",
-    "architecture_누적LID.md",
-    "spec(LID학습).md",
-    "spec(누적LID).md",
-    "04. Notion/스프링데이터 JPA/섹션 4 - 쿼리 메소드 기능.md.tmp.32552.34ad5fc48bb4",
-    "04. Notion/스프링데이터 JPA/섹션 4 - 쿼리 메소드 기능.md.tmp.32552.0c10d25a71dd",
-    "04. Notion/스프링 핵심원리 강의/섹션 1 - 객체 지향 설계와 스프링(블로깅완료).md.tmp.32552.68716ade5a02",
-    "04. Notion/Junit_초급강의/스프링 DB 1편/섹션 5 - 자바 예외 이해.md.tmp.32552.4614f5923c66",
-    "04. Notion/Junit_초급강의/서비스 레이어 테스트.md.tmp.32552.594f14d304a7",
     "04. Notion/Images/Untitled.png",
     "04. Notion/Images/더이상_불안해_할_시간도_없다!.jpg",
     "캔버스 테스트.canvas"
