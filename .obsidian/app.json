@@ -3,5 +3,5 @@
   "alwaysUpdateLinks": true,
   "promptDelete": true,
   "spellcheck": false,
-  "readableLineLength": true
+  "readableLineLength": false
 }
